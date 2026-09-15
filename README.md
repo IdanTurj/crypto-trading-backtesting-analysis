@@ -2,6 +2,12 @@
 
 A Python Data Analytics portfolio project for evaluating a rule-based trading strategy on historical price data and measuring both performance and risk.
 
+## Portfolio overview
+
+![Backtesting analysis overview](assets/backtesting-analysis-overview.png)
+
+*Visual summary of the sample backtest, including performance KPIs, equity curve, trade outcomes, and drawdown analysis.*
+
 ## Project overview
 
 I originally built this project as a broader trading-simulation system. For the portfolio version, I redesigned it around the analytical core: historical price data, reproducible backtesting, trade-level outputs, KPI calculation, and risk analysis.
@@ -77,7 +83,8 @@ These values demonstrate the analytical workflow on the included sample data. Th
 ├── results/
 │   └── sample_backtest_results.csv
 └── assets/
-    └── README.md
+    ├── README.md
+    └── backtesting-analysis-overview.png
 ```
 
 ## Run locally
@@ -121,8 +128,6 @@ The analysis script prints the KPI summary and writes detailed trade-level resul
 ## Portfolio note
 
 This repository is designed as a Data Analytics project rather than a production trading system. The focus is on reproducibility, KPI design, trade-level analysis, and communicating performance and risk clearly.
-
-A visual screenshot can be added later under the `assets/` folder and embedded near the top of this README.
 
 ## Disclaimer
 

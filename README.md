@@ -2,12 +2,6 @@
 
 A Python Data Analytics portfolio project for evaluating a rule-based trading strategy on historical price data and measuring both performance and risk.
 
-## Equity curve preview
-
-![Backtest equity curve](assets/equity_curve.png)
-
-*Trade-by-trade account balance generated from the included sample backtest results.*
-
 ## Project overview
 
 I originally built this project as a broader trading-simulation system. For the portfolio version, I redesigned it around the analytical core: historical price data, reproducible backtesting, trade-level outputs, KPI calculation, and risk analysis.
@@ -83,8 +77,7 @@ These values demonstrate the analytical workflow on the included sample data. Th
 ├── results/
 │   └── sample_backtest_results.csv
 └── assets/
-    ├── README.md
-    └── equity_curve.png
+    └── README.md
 ```
 
 ## Run locally
@@ -107,7 +100,7 @@ Generate the equity curve:
 python visualize_results.py
 ```
 
-The analysis script prints the KPI summary and writes detailed trade-level results to `results/sample_backtest_results.csv`. The visualization script generates `assets/equity_curve.png`.
+The analysis script prints the KPI summary and writes detailed trade-level results to `results/sample_backtest_results.csv`. The visualization script generates `assets/equity_curve.png` locally.
 
 ## KPI definitions
 
@@ -128,6 +121,8 @@ The analysis script prints the KPI summary and writes detailed trade-level resul
 ## Portfolio note
 
 This repository is designed as a Data Analytics project rather than a production trading system. The focus is on reproducibility, KPI design, trade-level analysis, and communicating performance and risk clearly.
+
+A visual screenshot can be added later under the `assets/` folder and embedded near the top of this README.
 
 ## Disclaimer
 
